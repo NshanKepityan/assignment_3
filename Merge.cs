@@ -33,7 +33,7 @@ namespace Merge
                 else if (i2 > lastIndex)
                     secondArr[k++] = arr[i1++];
 
-                else if (array[i1] < arr[i2])
+                else if (arr[i1] < arr[i2])
                     secondArr[k++] = arr[i1++];
                 
                 else
@@ -42,7 +42,7 @@ namespace Merge
 
             for (i = 0; i < k; i++)
             {
-                array[firstIndex++] = secondArr[i];
+                arr[firstIndex++] = secondArr[i];
             }
         }
 
