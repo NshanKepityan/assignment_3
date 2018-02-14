@@ -19,7 +19,7 @@ namespace ConsoleApp2
             Random r = new Random();
             while(!a)
             {
-                Console.WriteLine("Incorrect input please input an integer number");
+                Console.WriteLine("input an integer number for array's count");
                 String s = Console.ReadLine();
                 a = Int32.TryParse(s, out count);
             }
