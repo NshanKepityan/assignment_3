@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace Bubble
 {
+    /// <summary>
+    /// Class containing Bubble Sort's algorithm implementation.
+    /// </summary>
     class Bubble
     {
+        /// <summary>
+        /// This method implements Bubble Sort's main algorithm 
+        /// </summary>
+        /// <param name="arr">the given array to be sorted</param>
         public static int[] TypicalSort(int[] arr)
         {
             int count = arr.Length;
@@ -26,6 +33,12 @@ namespace Bubble
             }
             return arr;
         }
+        
+        /// <summary>
+        /// Sort method wich implements Bubble Sort
+        /// </summary>
+        /// <param name="arr">The given array wich should be sorted</param>
+        /// <returns>Returns sorted array</returns>
         public static int[] Sort(int[] arr)
         {
             int[] sorted = arr;
