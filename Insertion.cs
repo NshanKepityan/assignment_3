@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace Insertion
 {
+    /// <summary>
+    /// Class containing Insertion Sort algorithm implementation.
+    /// </summary>
     class Insertion
     {
+        
+        /// <summary>
+        /// This method implements Insertion Sort's main algorithm 
+        /// </summary>
+        /// <param name="arr">the givent array to be sorted</param>
         public static int[] Insert(int[] arr)
         {
             int i, j;
@@ -24,6 +32,12 @@ namespace Insertion
             }
             return arr;
         }
+        
+        /// <summary>
+        /// Sort method wich implements Insertion Sort
+        /// </summary>
+        /// <param name="arr">The givent array wich should be sorted</param>
+        /// <returns>Returns sorted array</returns>
         public static int[] Sort(int[] arr)
         {
             int[] sorted = arr;
